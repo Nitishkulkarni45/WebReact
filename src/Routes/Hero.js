@@ -10,7 +10,7 @@ function Hero(props) {
       <div className="imghd">
         <h1>{props.title}</h1>
         <p>{props.text}</p>
-       <button><a href={props.url} className={props.btnClass}>
+       <button className={props.butHide}><a href={props.url} className={props.btnClass}>
           {props.buttonText}
         </a></button> 
       </div>
