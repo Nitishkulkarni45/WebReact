@@ -6,6 +6,8 @@
     transform: translate(-50%);
     box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.25);
     z-index: 9999;
+    position: fixed;
+    /* height: 80px; */
 }
 .Nav-top{
     

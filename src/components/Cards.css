@@ -1,0 +1,22 @@
+.CardMain{
+    display: flex;
+    gap: 100px 50px ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    padding: 100px 50px;
+}
+.CardMain .card{
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border-radius: 13px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+    background-color: greenyellow;
+    transition: 0.5s;
+}
+.card :hover{
+    height: 400px;
+}
+
