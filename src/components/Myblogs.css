@@ -1,0 +1,28 @@
+.Myblogs{
+    margin: 4rem 6rem;
+    color:#2a2a2a ;
+}
+.Myblogs h1{
+    font-size: 3rem;
+}
+.main-head-head{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.Myblog-cardMain{
+    width: 32%;
+    text-align: start;
+    box-shadow: 0px 5px 25px 2px rgba(0, 0, 0, 0.11);
+    border-radius: 13px;
+    cursor: pointer;
+    padding: 1px 0.8px ;
+}
+.Myblog-cardMain p{
+    padding: 10px 30px ;
+}
+.cardIMG{
+    width: 424px;
+    overflow: hidden;
+    border-radius: 10px;
+}

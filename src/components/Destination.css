@@ -1,0 +1,59 @@
+.destination{
+    margin: 4rem 6rem;
+}
+.firstDes{
+    /* width: 35%; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+.immm img{
+    object-fit: cover;
+    margin: 5px;
+    height: 20rem;
+    width: 15rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0,0.19);
+}
+.immm{
+    position: relative;
+    z-index: -99;
+    justify-content: space-between;
+    width: 50%;
+    display: flex;
+}
+.destiTitle-1{
+    padding: 0px 80px;
+    text-align: start;
+    font-size: 1.1rem;
+}
+.destiTitle h2{
+    padding-bottom: 1rem;
+}
+.immm img:nth-child(2){
+    position: absolute;
+    top: 10%;
+    right: 100%;
+}
+.destiTitle-1 p{
+    width: 70%;
+}
+.firstDes-reverse{
+    /* width: 35%; */
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    margin-left: 20rem;
+}
+.destiTitle-2{
+    padding: 0px 80px;
+    text-align: start;
+    font-size: 1.1rem;
+}
+.destiTitle-2 p{
+    width: 110%;
+    
+}

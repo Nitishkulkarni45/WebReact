@@ -12,10 +12,10 @@ function Service (){
     />
     <Hero 
     cName = "Hero"
-    heroImg = "https://cdn.pixabay.com/photo/2016/08/18/20/05/light-bulbs-1603766_960_720.jpg"
-    title = "About"
+    heroImg = "https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&w=600"
+    title = "Service"
     butHide = "button-hide"
-    Mainhead = "AboutHead"
+    Mainhead = "ServiceHead"
     />
     </>
   )

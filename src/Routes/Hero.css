@@ -43,7 +43,7 @@ font-size: 3rem;
     display: none;
 }
 
-.AboutHead{
+.AboutHead {
     background-color: #fff;
 font-weight: bold;
 font-size: 3rem;
@@ -58,4 +58,19 @@ position: absolute;
 }
 .AboutHead h1{
     gap: 20px;
+}
+.ServiceHead{
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 3rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;    
+}
+.ServiceHead h1{
+    gap: 100px !important;
 }

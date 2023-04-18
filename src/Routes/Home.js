@@ -1,7 +1,9 @@
 import React from 'react'
 import Navbar from '../components/Navbar';
 import Hero from '../Routes/Hero';
-import Cards from '../components/Cards';
+import Destination from '../components/Destination';
+import Myblogs from '../components/Myblogs';
+// import Cards from '../components/Cards';
 
 const Home = () => {
   return (
@@ -22,7 +24,9 @@ const Home = () => {
     btnClass="show"
     Mainhead = "imghd"
     />
-    <Cards />
+    <Destination />
+    <Myblogs />
+    {/* <Cards /> */}
     </>
   )
 }
