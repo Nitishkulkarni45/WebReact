@@ -9,10 +9,10 @@ const Home = () => {
   return (
     <>
     <Navbar 
-    classBoot1="nav-link active navb-linker"
-    classBoot2="nav-link navb-linker"
-    classBoot3="nav-link navb-linker"
-    classBoot4="nav-link navb-linker"
+    classBoot1="nav-link active navb-linker Boot"
+    classBoot2="nav-link navb-linker Boot"
+    classBoot3="nav-link navb-linker Boot"
+    classBoot4="nav-link navb-linker Boot"
     />
     <Hero 
     cName = "Hero"
