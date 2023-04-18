@@ -1,0 +1,10 @@
+.aboutBod{
+    margin: 20px 10px;
+    padding: 10px 20px;
+    border: 2px solid red;
+    border-radius: 13px;
+}
+.HeadEr{
+    padding-left: 20px;
+    text-align: left;
+}

@@ -3,9 +3,11 @@ import "./Navbar.css";
 import {Link} from "react-router-dom";
 
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <div>
+      
+      
       <nav class="navbar navbar-expand-lg bg-body-tertiary navi">
      <div className="container-fluid">
       <a class="navbar-brand" href="/">Navbar</a>
@@ -15,16 +17,16 @@ const Navbar = () => {
       <div className="collapse navbar-collapse Nav-top" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item nov">
-            <Link class="nav-link active navb-linker" aria-current="page" to="/"><i class="fa-solid fa-house i"></i>Home</Link>
+            <Link class={props.classBoot1} aria-current="page" to="/"><i class="fa-solid fa-house i"></i>Home</Link>
           </li>
           <li class="nav-item nov">
-            <Link class="nav-link navb-linker" to="/About"><i class="fa-solid fa-info i"></i>About</Link>
+            <Link class={props.classBoot2} to="/About"><i class="fa-solid fa-info i"></i>About</Link>
           </li>
           <li class="nav-item nov">
-            <Link class="nav-link navb-linker" to="/Service"><i class="fa-solid fa-briefcase i"></i>Service</Link>
+            <Link class={props.classBoot3} to="/Service"><i class="fa-solid fa-briefcase i"></i>Service</Link>
           </li>
           <li class="nav-item nov">
-            <Link class="nav-link navb-linker" to="/Contact"><i class="fa-solid fa-address-book i"></i>Contact</Link>
+            <Link class={props.classBoot4} to="/Contact"><i class="fa-solid fa-address-book i"></i>Contact</Link>
           </li>
         </ul>
         <form class="d-flex" role="search">

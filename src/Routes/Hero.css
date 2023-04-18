@@ -39,6 +39,23 @@ font-size: 3rem;
     padding: 0.75rem 0.5rem;
     border-radius: 6px;
 }
-.imghd button-hide{
+.button-hide{
     display: none;
+}
+
+.AboutHead{
+    background-color: #fff;
+font-weight: bold;
+font-size: 3rem;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.AboutHead h1{
+    gap: 20px;
 }
