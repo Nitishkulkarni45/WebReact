@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Hero from '../Routes/Hero';
 import Destination from '../components/Destination';
 import Myblogs from '../components/Myblogs';
+import Footer from '../components/Footer';
 // import Cards from '../components/Cards';
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
     />
     <Destination />
     <Myblogs />
+    <Footer />
     {/* <Cards /> */}
     </>
   )

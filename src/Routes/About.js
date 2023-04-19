@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from './Hero'
 import Aboutbody from '../components/Aboutbody'
+import Footer from '../components/Footer'
 
 const About = () => {
   return (
@@ -22,6 +23,7 @@ const About = () => {
     <Aboutbody 
     titleHead = "HeadEr"
     />
+    <Footer />
     
     </>
   )
