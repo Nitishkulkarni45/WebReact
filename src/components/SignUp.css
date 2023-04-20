@@ -1,3 +1,38 @@
 .Boot2{
     display: none;
 }
+.SignUpFormContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+    height: 100%;
+    width: 100%;
+    /* opacity: 0.5; */
+}
+.SignUpFormContainer img{
+    height: 50%;
+    /* position: absolute; */
+    width: 53%;
+}
+.originform{
+    /* color: black; */
+    /* background: transparent;  */
+    position: absolute;
+    border: 2px solid red;
+    margin: 4rem 6rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.submitt{
+    display: flex;
+}
+.originform input{
+    color: black;
+    font-weight: 700;
+    background:none;
+}
+.originform input::placeholder{
+    color: black !important;
+}
