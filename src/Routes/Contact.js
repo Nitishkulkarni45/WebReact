@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from './Hero'
 import Footer from '../components/Footer'
+import Contactform from '../components/Contactform'
 
 function Contact(){
   return (
@@ -11,6 +12,7 @@ function Contact(){
     classBoot2="nav-link navb-linker"
     classBoot3="nav-link navb-linker"
     classBoot1="nav-link navb-linker"
+    classBoot5="nav-link navb-linker Boot"
     />
     <Hero 
     cName = "Hero"
@@ -19,6 +21,8 @@ function Contact(){
     butHide = "button-hide"
     Mainhead = "AboutHead"
     />
+    <Contactform />
+    <Footer />
     </>
   )
 }

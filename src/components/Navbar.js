@@ -31,7 +31,7 @@ const Navbar = (props) => {
         </ul>
         <form class="d-flex" role="search">
           {/* <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> */}
-          <div className="signup"><button class="btn btn-outline-black butsignup" type="submit">Sign up</button></div>
+          <Link class={props.classBoot5} to="/SignUp"><div className="signup"><button class="btn btn-outline-black butsignup" type="submit">Sign up</button></div></Link>
           
         </form>
       </div>
