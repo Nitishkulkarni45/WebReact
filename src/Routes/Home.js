@@ -14,7 +14,7 @@ const Home = () => {
     classBoot2="nav-link navb-linker Boot"
     classBoot3="nav-link navb-linker Boot"
     classBoot4="nav-link navb-linker Boot"
-    classBoot5="nav-link navb-linker Boot"
+    
     />
     <Hero 
     cName = "Hero"
@@ -29,7 +29,7 @@ const Home = () => {
     <Destination />
     <Myblogs />
     <Footer />
-    {/* <Cards /> */}
+    
     </>
   )
 }

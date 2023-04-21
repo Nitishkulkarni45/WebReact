@@ -29,6 +29,7 @@ font-size: 3rem;
     
 }
 .imghd .show{
+    
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -36,6 +37,7 @@ font-size: 3rem;
    
 }
 .imghd button{
+    margin-bottom: 15%;
     padding: 0.75rem 0.5rem;
     border-radius: 6px;
 }

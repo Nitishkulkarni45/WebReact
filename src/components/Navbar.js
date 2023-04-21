@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css";
 import {Link} from "react-router-dom";
+import img1 from "./../assets/Cheers.png";
 
 
 const Navbar = (props) => {
@@ -10,7 +11,7 @@ const Navbar = (props) => {
       
       <nav class="navbar navbar-expand-lg bg-body-tertiary navi">
      <div className="container-fluid">
-      <a class="navbar-brand" href="/">Navbar</a>
+      <a class="navbar-brand logo" href="/">TGG</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,11 +30,9 @@ const Navbar = (props) => {
             <Link class={props.classBoot4} to="/Contact"><i class="fa-solid fa-address-book i"></i>Contact</Link>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          {/* <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" /> */}
+        {/* <form class="d-flex" role="search">
           <Link class={props.classBoot5} to="/SignUp"><div className="signup"><button class="btn btn-outline-black butsignup" type="submit">Sign up</button></div></Link>
-          
-        </form>
+        </form> */}
       </div>
     </div>
   </nav>

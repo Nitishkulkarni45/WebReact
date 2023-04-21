@@ -17,7 +17,6 @@ class DestinationData extends Component {
         </div>
       </div>
     )
-
   }
 }
 

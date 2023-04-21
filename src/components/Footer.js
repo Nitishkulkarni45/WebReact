@@ -6,8 +6,8 @@ function Footer  () {
     <div className='Footer'>
         <div className="upperrow">
             <div className="right">
-                <h1>Ssdsvdsvsv</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, doloremque.</p>
+                <h1>The Gully Guy</h1>
+                <p>Choose your dream destinantion now!</p>
             </div>
             <div className="left">
                 <a href="/">

@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './Hero'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import Myservices from '../components/Myservices'
 function Service (){
   return (
     <>
@@ -19,6 +20,7 @@ function Service (){
     butHide = "button-hide"
     Mainhead = "ServiceHead"
     />
+    <Myservices />
     <Footer />
     </>
   )
