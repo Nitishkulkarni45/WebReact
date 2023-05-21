@@ -1,10 +1,11 @@
 import React from 'react'
-import './Hotels.css';
+import '../components/Hotels.css';
+import Navbar from './Navbar';
 
 const Hotels = () => {
   return (
     <div>
-      
+      <Navbar />
     </div>
   )
 }
