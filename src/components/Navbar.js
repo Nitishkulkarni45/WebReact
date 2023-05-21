@@ -11,7 +11,7 @@ const Navbar = (props) => {
       
       <nav class="navbar navbar-expand-lg bg-body-tertiary navi">
      <div className="container-fluid">
-      <a class="navbar-brand logo" href="/">TGG</a>
+      <a class="navbar-brand logo" href="https://www.instagram.com/the_gullyguy_/">TGG</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
