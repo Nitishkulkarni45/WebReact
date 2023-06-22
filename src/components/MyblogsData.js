@@ -14,7 +14,7 @@ function MyblogsData(props){
         <h4>{props.inIMGtitle}</h4>
         <p>{props.inIMGtext}</p>
         {/* <button type="button" class="btn btn-primary thus">Read More</button> */}
-        <div className="readMore"><button onClick={()=>{navigate('/hotels')}}type="button" class="btn btn-primary">{props.read}</button></div>
+        <div className="readMore"><button onClick={()=>{navigate('/Hotels')}}type="button" class="btn btn-primary">{props.read}</button></div>
     </div>
   )
 }

@@ -1,0 +1,14 @@
+.car-sole{
+    position: relative;
+    top: 0px;
+}
+.car-sole img{
+    opacity: 0.82;
+    height: 600px;
+}
+h4 {
+    color: white;
+}
+p {
+    color: white;
+}

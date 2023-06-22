@@ -1,11 +1,19 @@
 import React from 'react'
-import '../components/Hotels.css';
 import Navbar from './Navbar';
+import Carusole from './Carusole';
+
 
 const Hotels = () => {
   return (
     <div>
-      <Navbar />
+      <Navbar 
+      classBoot3="nav-link active navb-linker"
+      classBoot2="nav-link navb-linker"
+      classBoot1="nav-link navb-linker"
+      classBoot4="nav-link navb-linker"
+      classBoot5="nav-link navb-linker Boot"
+      />
+      <Carusole/>
     </div>
   )
 }
