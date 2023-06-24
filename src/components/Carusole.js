@@ -11,7 +11,7 @@ const Carusole = () => {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
-  <div class="carousel-inner">
+  <div class="carousel-inner carrss">
     <div class="carousel-item active" data-bs-interval="10000">
       <img src="https://hokkaidoguide.com/wp-content/uploads/2020/07/126A0393-scaled.jpg" class="d-block w-100" alt="A chinese restaurant"/>
       <div class="carousel-caption d-none d-md-block">
@@ -30,7 +30,7 @@ const Carusole = () => {
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8JoY15-z0gb065L6Ik6lo4TtJHK-l3KB2KK2T0rxPQQ&usqp=CAU&ec=48665698" class="d-block w-100" alt="..."/>
       <div class="carousel-caption d-none d-md-block">
         <h4>The royal Italian</h4>
-        <p>Try something new .</p>
+        <p>Drown yourself in the aroma of Italian dishes .</p>
       </div>
     </div>
   </div>
