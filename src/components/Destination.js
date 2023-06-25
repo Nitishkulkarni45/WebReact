@@ -14,6 +14,7 @@ const Destination = () => {
       img2 = "https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&w=600"
       firstdes= "firstDes"
       headClass="HeadClass"
+      linkTitle="/GullyEats"
       destititle="destiTitle-1"
       />
 
@@ -23,6 +24,8 @@ const Destination = () => {
       img1 = "https://images.pexels.com/photos/1496373/pexels-photo-1496373.jpeg?auto=compress&cs=tinysrgb&w=600"
       img2 = "https://images.pexels.com/photos/1738622/pexels-photo-1738622.jpeg?auto=compress&cs=tinysrgb&w=600"
       firstdes= "firstDes-reverse"
+      headClass="HeadClass"
+      linkTitle="/GullyAdventure"
       destititle="destiTitle-2"
       />
     </div>

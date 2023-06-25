@@ -7,6 +7,7 @@ import Contact from './Routes/Contact';
 import { Route, Routes } from "react-router-dom";
 import Hotels from './components/Hotels';
 import GullyEats from './Routes/GullyEats';
+import GullyAdventure from './Routes/GullyAdventure';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Hotels" element={<Hotels />} />
         <Route path="/GullyEats" element={<GullyEats />} />
+        <Route path="/GullyAdventure" element={<GullyAdventure />} />
       </Routes>
     </div>
   );
