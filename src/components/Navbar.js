@@ -29,6 +29,19 @@ const Navbar = (props) => {
           <li class="nav-item nov">
             <Link class={props.classBoot4} to="/Contact"><i class="fa-solid fa-address-book i"></i>Contact</Link>
           </li>
+          <li class="nav-item nov">
+            <Link class={props.classBoot4} to="/Contact"><div class="dropdown">
+  <button class={props.bootclass} type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu dropdown-menu">
+    <li><a class="dropdown-item active" href="/">Action</a></li>
+    <li><a class="dropdown-item" href="/">Another action</a></li>
+    <li><a class="dropdown-item" href="/">Something else here</a></li>
+    <li><a class="dropdown-item" href="/">Separated link</a></li>
+  </ul>
+</div></Link>
+          </li>
         </ul>
         {/* <form class="d-flex" role="search">
           <Link class={props.classBoot5} to="/SignUp"><div className="signup"><button class="btn btn-outline-black butsignup" type="submit">Sign up</button></div></Link>
