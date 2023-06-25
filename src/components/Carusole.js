@@ -13,7 +13,10 @@ const Carusole = () => {
   </div>
   <div class="carousel-inner carrss">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="https://hokkaidoguide.com/wp-content/uploads/2020/07/126A0393-scaled.jpg" class="d-block w-100" alt="A chinese restaurant"/>
+      <img src="https://hokkaidoguide.com/wp-content/uploads/2020/07/126A0393-scaled.jpg" class="d-block w-100 sourcee" alt="A chinese restaurant" onClick={function(){
+        let source = document.getElementsByClassName("sourcee");
+        
+      }}/>
       <div class="carousel-caption d-none d-md-block">
         <h4>Spicy Chinese</h4>
         <p>Explore the chinese related restaurants near you.</p>

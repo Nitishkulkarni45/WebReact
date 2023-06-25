@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "./Destination.css";
+import {Link} from "react-router-dom";
 
 class DestinationData extends Component {
   render (){
@@ -7,7 +8,7 @@ class DestinationData extends Component {
         <div className="destiMain">
         <div className={this.props.firstdes}>
           <div className={this.props.destititle}>
-            <h2>{this.props.heading}</h2>
+          <Link class={this.props.headClass} to="/GullyEats"><h2>{this.props.heading}</h2></Link>
             <p>{this.props.text}</p>
           </div>
           <div className="immm">

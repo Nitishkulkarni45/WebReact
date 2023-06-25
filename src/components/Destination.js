@@ -13,6 +13,7 @@ const Destination = () => {
       img1 = "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=600"
       img2 = "https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?auto=compress&cs=tinysrgb&w=600"
       firstdes= "firstDes"
+      headClass="HeadClass"
       destititle="destiTitle-1"
       />
 
