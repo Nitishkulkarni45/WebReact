@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import '../Routes/GullyEats.css';
 // import '../components/Navbar.css'; 
 
 const GullyEats = (props) => {

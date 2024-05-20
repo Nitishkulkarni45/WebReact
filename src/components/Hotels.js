@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
 import Carusole from './Carusole';
+import Shorts from './Shorts';
 
 
 const Hotels = () => {
@@ -14,6 +15,7 @@ const Hotels = () => {
       classBoot5="nav-link navb-linker Boot"
       />
       <Carusole/>
+      <Shorts />
     </div>
   )
 }

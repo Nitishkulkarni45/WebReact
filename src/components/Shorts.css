@@ -1,0 +1,25 @@
+.container{
+    border: 2px solid red;
+    height: 450px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+.short-card{
+    height: 350px;
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 50px;
+}
+
+.outer-short-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hed{
+    position: relative;
+    left: -422px;
+    top: 25px;
+}

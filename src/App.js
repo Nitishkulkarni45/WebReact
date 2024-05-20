@@ -8,12 +8,15 @@ import { Route, Routes } from "react-router-dom";
 import Hotels from './components/Hotels';
 import GullyEats from './Routes/GullyEats';
 import GullyAdventure from './Routes/GullyAdventure';
+import Login from './Routes/Login';
+
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Login />} />
+        <Route path="/Home" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Service" element={<Service />} />
         <Route path="/Contact" element={<Contact />} />

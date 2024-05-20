@@ -19,7 +19,7 @@ const Carusole = () => {
       }}/>
       <div class="carousel-caption d-none d-md-block">
         <h4>Spicy Chinese</h4>
-        <p>Explore the chinese related restaurants near you.</p>
+        <p>Explore the chinese restaurants near you.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">

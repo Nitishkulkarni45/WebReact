@@ -28,9 +28,10 @@ border-radius: 7px;
 }
 .Myblog-cardMain h4{
     text-align: center;
+    color: black !important;
 }
 .Myblog-cardMain h4{
-    text-align: left;
+    /* text-align: left; */
     margin-left: 30px;
 }
 .Myblog-cardMain p{
