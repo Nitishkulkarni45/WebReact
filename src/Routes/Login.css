@@ -1,73 +1,129 @@
-.ccontainer{
-    /* border: 2px solid red; */
-    width: 350px;
-    height: 450px;
-    margin-top: 100px;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-
-    position: relative;
-    /* background-image: url(C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/Cheers.png); */
-
-    /* filter: blur(5px); */
-    
+.ccontainer {
+  /* border: 2px solid red; */
+  width: 350px;
+  height: 420px;
+  margin-top: 100px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  position: relative;
 }
-.Main-cont-1{
+.Main-cont-1 {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.back-Ground {
+  position: absolute;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/Cheers.png);
+  filter: blur(10px);
+  z-index: -1;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#userName-1 {
+  width: 300px;
+  height: 42px;
+  position: relative;
+  top: 10%;
+  border-radius: 10px;
+  background-color: transparent;
+  outline: none;
+}
+.enterName {
+  position: absolute;
+  top: 15%;
+  left: 7%;
+}
+.enterPass {
+  position: absolute;
+  top: 28%;
+  left: 7%;
+}
+#Password-1 {
+  width: 300px;
+  height: 42px;
+  position: relative;
+  top: 10%;
+  border-radius: 10px;
+  background-color: transparent;
+  outline: none;
+}
+.eye {
+  position: absolute;
+  left: 90%;
+  top: 20%;
+
+  border: 10px;
+  background-color: transparent;
+}
+.logBut{
     position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.back-Ground{
-position: absolute;
-/* position: absolute; */
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background-image: url(C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/Cheers.png);
-filter: blur(10px); 
-z-index: -1;
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
-}
-#userName-1{
     width: 300px;
-    height: 38px;
-    position: relative;
-    top: 10%;
     border-radius: 10px;
-    background-color: transparent;
+    height: 35px;
+    top: 50%;
+    left: 7.5%;
     outline: none;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
 }
-.enterName{
+.logBut-12{
     position: absolute;
-    top: 10%;
-    left: 7%;
+    width: 300px;
+    border-radius: 10px;
+    height: 35px;
+    top: 60%;
+    left: 7.5%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+#rememberPass{
+    position: absolute;
+    top: 43.5%;
+    left: 10%;
+}
+.remMainPass{
+    display: flex;
+    flex-direction: row;
+}
+.remMainPassText{
+    position: absolute;
+    top: 42%;
+    left: 15%;
+}
+.mainMainName{
+    display: flex;
+    flex-direction: column;
+}
+.nameMain{
+    position: absolute;
+    left: 0%;
+    top: -55%;
+    font-weight: 700;
+    font-size: small;
+}
+.mainMainPass{
+    display: flex;
+    flex-direction: column;
+}
+.passMain{
+    position: absolute;
+    left: 0%;
+    top: -45%;
+    font-weight: 700;
+    font-size: small;
 }
 .enterPass{
     position: absolute;
-    top: 23%;
-    left: 7%;
-}
-#Password-1{
-    width: 300px;
-    height: 38px;
-    position: relative;
-    top: 10%;
-    border-radius: 10px;
-    background-color: transparent;
-    outline: none;
-}
-.eye{
-    /* z-index: 4; */
-    position: absolute;
-    left: 90%;
-    top: 20%;
-    /* outline: none; */
-    border: 10px;
-    background-color: transparent;
-    /* margin-top: 50px !important; */
-    
+    top: 30%;
 }
