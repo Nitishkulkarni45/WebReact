@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import {Link} from "react-router-dom";
 import "./Login.css";
 
+
 function Login() {
   const [IsEyeOpen, setIsEyeOpen] = useState(false);
   const [username, Setusername] = useState('');
@@ -20,6 +21,10 @@ function Login() {
     window.location.href = "/home";
    }
    
+  }
+
+  const toSignUp = ()=>{
+    window.location.href = "/SignUp";
   }
 
 
@@ -58,7 +63,7 @@ function Login() {
           <button  className="logBut"  onClick={handleSubmit}>Login</button>
         </div>
         <div className="login-but">
-          <button className="logBut-12">Sign Up</button>
+          <button className="logBut-12" onClick={toSignUp}>Sign Up</button>
         </div>
         <div className="rememberPasss">
           <div className="remMainPass">

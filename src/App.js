@@ -9,13 +9,14 @@ import Hotels from './components/Hotels';
 import GullyEats from './Routes/GullyEats';
 import GullyAdventure from './Routes/GullyAdventure';
 import Login from './Routes/Login';
-
+import SignUp from './Routes/SignUp';
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Login />} />
+        <Route path="/SignUp" element={<SignUp />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/About" element={<About />} />
         <Route path="/Service" element={<Service />} />

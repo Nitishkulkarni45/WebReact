@@ -1,0 +1,55 @@
+.signupFormContainer{
+    /* border: 2px solid red; */
+    height: 420px;
+    width: 350px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,40%);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.5);
+}
+.signupContainer{
+    position: relative;
+}
+.signupInput{
+    width: 300px;
+    height: 33px;
+    border-radius: 8px;
+}
+.contName{
+    width: 131px;
+    text-align: left;
+    font-weight: 700;
+    font-size: small;
+    margin-left: 25px;
+}
+.maincontName{
+    margin-top: 10px;
+}
+.signupButton{
+    margin-top: 20px;
+    width: 150px;
+    height: 38px;
+    border-radius: 8px;
+}
+.orOp{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 39%;
+    transform: translateY(1900%);
+}
+.linehr{
+    color: black;
+    width: 148px;
+}
+.or{
+    margin: 0px 15px 0px 15px;
+}
+.optHead{
+    /* position: absolute; */
+    left: 50%;
+    bottom: 5%;
+}
