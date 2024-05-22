@@ -68,7 +68,7 @@
     width: 300px;
     border-radius: 10px;
     height: 35px;
-    top: 50%;
+    top: 60%;
     left: 7.5%;
     outline: none;
     border: none;
@@ -80,7 +80,7 @@
     width: 300px;
     border-radius: 10px;
     height: 35px;
-    top: 60%;
+    top: 70%;
     left: 7.5%;
     outline: none;
     border: none;
@@ -89,8 +89,8 @@
 }
 #rememberPass{
     position: absolute;
-    top: 43.5%;
-    left: 10%;
+    top: 45.5%;
+    left: 8%;
 }
 .remMainPass{
     display: flex;
@@ -98,8 +98,8 @@
 }
 .remMainPassText{
     position: absolute;
-    top: 42%;
-    left: 15%;
+    top: 44%;
+    left: 12%;
 }
 .mainMainName{
     display: flex;
@@ -126,4 +126,9 @@
 .enterPass{
     position: absolute;
     top: 30%;
+}
+.forgetPass{
+  position: absolute;
+  top: 44%;
+  left: 55%;
 }
