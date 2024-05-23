@@ -15,7 +15,7 @@ function Login() {
    const trimmedpassword = password.trim();
 
    if(trimmedusername === "" || trimmedpassword === ""){
-    alert("Enter a valid user name or password");
+    alert("Enter a username and password");
    }
    else{
     window.location.href = "/home";

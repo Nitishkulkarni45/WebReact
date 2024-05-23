@@ -65,7 +65,7 @@ const SignUp = () => {
           />
         </div>
         <button className="signupButton" onClick={handleSubmit}>
-          Sign Up
+          Create Account
         </button>
       </div>
       <div className="orOp">
@@ -74,11 +74,12 @@ const SignUp = () => {
         <hr className="linehr"/>
       </div>
       <div className="otherOpt">
-        <div className="optHead">Sign up using:</div>
+        <div className="optHead">Sign up using</div>
         <div className="social">
-            <img src="C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/twitter.png" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+        <i className="bi bi-google bi-10x socIcon"></i>
+        <i className="bi bi-twitter-x socIcon"></i>
+        <i className="bi bi-facebook socIcon"></i>
+        <i className="bi bi-telegram socIcon"></i>
         </div>
       </div>
     </div>
