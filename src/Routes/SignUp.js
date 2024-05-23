@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import "./SignUp.css";
 import FootApp from "../components/FootApp";
+import google from "C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/google.png"
+import facebook from "C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/facebook.png"
+import twitter from "C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/twitter.png"
+import tele from "C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/telegram.png"
 const SignUp = () => {
   const [password, setPassword] = useState("");
   const [conpassword, setConPassword] = useState("");
@@ -78,10 +82,14 @@ const SignUp = () => {
       <div className="otherOpt">
         <div className="optHead">Sign up using</div>
         <div className="social">
-        <i className="bi bi-google bi-10x socIcon"></i>
+        {/* <i className="bi bi-google socIcon"></i>
         <i className="bi bi-twitter-x socIcon"></i>
         <i className="bi bi-facebook socIcon"></i>
-        <i className="bi bi-telegram socIcon"></i>
+        <i className="bi bi-telegram socIcon"></i> */}
+        <img src={google} alt="" className="socIcon"/>
+        <img src={facebook} alt="" className="socIcon"/>
+        <img src={twitter} alt="" className="socIcon"/>
+        <img src={tele} alt="" className="socIcon"/>
         </div>
       </div>
     </div>

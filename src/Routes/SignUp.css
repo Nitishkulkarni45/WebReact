@@ -93,7 +93,7 @@
     background-image: linear-gradient(to right,#F9F07A,#FFEBB2,#FDFFC2);
 }
 .socIcon{
-    font-size: 30px;
+    height: 30px;
     display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);

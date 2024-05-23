@@ -2,6 +2,7 @@ import React from "react";
 import "./FootApp.css";
 import qrcode from "C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/download.png";
 import playstore from "C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/play_store.png";
+import appstore from "C:/Users/Admin/Desktop/KLE/Web_dev/gullyguy/src/assets/app-store.png";
 
 const FootApp = () => {
   return (
@@ -24,10 +25,16 @@ const FootApp = () => {
           </div>
 
           <div className="ios">
-            <div className="qrcode"></div>
+            <div className="qrcode">
+              <img src={qrcode} alt="" className="qrimg" />
+            </div>
             <div className="applinkhead">
-              <div className="playStoreimg"></div>
-              <div className="clickname"></div>
+              <div className="playStoreimg">
+                <img src={appstore} alt="" className="playMain" />
+              </div>
+              <div className="clickname">
+                <button className="playstoreBut">Download Now</button>
+              </div>
             </div>
           </div>
         </div>
