@@ -1,0 +1,35 @@
+.subCont{
+    background-color: black;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 200px;
+    /* left: 50%; */
+    transform: translateY(45rem);
+    position: absolute;
+    
+
+}
+.FootMainCont{
+    position: relative;
+}
+.appINfo{
+    font-size: 30px;
+}
+.qrimg{
+    height: 100px;
+}
+.android{
+    display: flex;
+}
+.playMain{
+    height: 50px;
+    margin-bottom: 10px;
+}
+.applinkhead{
+    margin-left: 15px;
+}
+.playstoreBut{
+    border-radius: 5px;
+    height: 40px;
+}

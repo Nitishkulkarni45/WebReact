@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./SignUp.css";
+import FootApp from "../components/FootApp";
 const SignUp = () => {
   const [password, setPassword] = useState("");
   const [conpassword, setConPassword] = useState("");
@@ -19,6 +20,7 @@ const SignUp = () => {
     }
   };
   return (
+    <div>
     <div className="signupContainer">
       <div className="signupFormContainer">
         <div className="signupFormHeader">Sign Up</div>
@@ -82,6 +84,8 @@ const SignUp = () => {
         <i className="bi bi-telegram socIcon"></i>
         </div>
       </div>
+    </div>
+    <FootApp />
     </div>
   );
 };

@@ -27,7 +27,6 @@ function Login() {
     window.location.href = "/SignUp";
   }
 
-
   return (
     <div className="Main-cont-1">
       <div className="back-Ground"></div>
