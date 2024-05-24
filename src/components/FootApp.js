@@ -10,31 +10,41 @@ const FootApp = () => {
       <div className="subCont">
         <div className="appINfo">Explore a bit more with our all new app</div>
         <div className="appdiv">
-          <div className="android">
-            <div className="qrcode">
-              <img src={qrcode} alt="" className="qrimg" />
+          <div className="andmain">
+            <div className="android">
+              <div className="qrcode">
+                <img src={qrcode} alt="" className="qrimg" />
+              </div>
+              <div className="applinkhead">
+                <div className="playStoreimg">
+                  <img src={playstore} alt="" className="playMain" />
+                </div>
+                <div className="clickname">
+                  <button className="playstoreBut">Download Now</button>
+                </div>
+              </div>
             </div>
-            <div className="applinkhead">
-              <div className="playStoreimg">
-                <img src={playstore} alt="" className="playMain" />
-              </div>
-              <div className="clickname">
-                <button className="playstoreBut">Download Now</button>
-              </div>
+            <div className="iolowline">
+              Scan or click on the button to download the app on your android device
             </div>
           </div>
 
-          <div className="ios">
-            <div className="qrcode">
-              <img src={qrcode} alt="" className="qrimg" />
+          <div className="ioMain">
+            <div className="ios">
+              <div className="qrcode">
+                <img src={qrcode} alt="" className="qrimg" />
+              </div>
+              <div className="applinkhead">
+                <div className="playStoreimg">
+                  <img src={appstore} alt="" className="playMain" />
+                </div>
+                <div className="clickname">
+                  <button className="playstoreBut">Download Now</button>
+                </div>
+              </div>
             </div>
-            <div className="applinkhead">
-              <div className="playStoreimg">
-                <img src={appstore} alt="" className="playMain" />
-              </div>
-              <div className="clickname">
-                <button className="playstoreBut">Download Now</button>
-              </div>
+            <div className="iolowline">
+              Scan or click on the button to download the app on your ios device
             </div>
           </div>
         </div>

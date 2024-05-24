@@ -32,7 +32,7 @@
     margin-top: 10px;
 }
 .signupButton{
-    margin-top: 25px;
+    margin-top: 18px;
     width: 200px;
     height: 38px;
     border-radius: 8px;
@@ -85,7 +85,7 @@
     height: 50px;
     align-items: center;
     position: absolute;
-    left: 710px;
+    left: 703px;
     transform: translate(-7.2rem,39rem);
     width: 350px;
     border-radius: 10px;
